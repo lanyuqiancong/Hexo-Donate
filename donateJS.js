@@ -34,7 +34,7 @@ function beautiful() {
     var arrayList = document.getElementsByTagName("tr");
     var pageText = document.getElementsByTagName("p")[0].innerHTML;
     var personNum = arrayList.length - 1, sumDonate = 0;
-    var nowDate = new Date;
+    var nowDate = new Date();
     for (var i = 1; i < arrayList.length; i++) {
         sumDonate += Number(arrayList[i].getElementsByTagName("td")[2].innerHTML);
         var payWay = arrayList[i].getElementsByTagName("td")[1].innerHTML;
