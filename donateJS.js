@@ -5,7 +5,7 @@
  * Last Update: 2020/6/4
  */
 //通过get请求，获取getJsonData.php文件从数据库中获取的数据
-$.get("http://yxrxar1515.m.awhost.cn/getJsonData.php", function getData(data) {
+$.get("https://donate.qiancong.me/getJsonData.php", function getData(data) {
     //强转jsSon类型，便于操作数据
     var donationInfo = JSON.parse(data);
     //获取table标签，将获取的数据插入
